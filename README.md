@@ -97,6 +97,40 @@ Before running the code, ensure you have Python installed, along with the necess
   - Averaging blur, Gaussian blur, Median blur, and Bilateral blur.
   - Understanding how different filters affect image sharpness and noise.
 
+### 12. `bitwise.py`
+- **Functionality**: Demonstrates bitwise operations on shapes (rectangle and circle).
+- **Key Concepts**:
+  - Creating blank images using `numpy.zeros()`.
+  - Drawing shapes like rectangles and circles.
+  - Applying bitwise operations (`AND`, `OR`, `XOR`, `NOT`) to the shapes.
+
+### 13. `mask.py`
+- **Functionality**: Demonstrates masking of images using shapes.
+- **Key Concepts**:
+  - Creating masks with shapes like rectangles and circles using `numpy` functions.
+  - Applying the masks to images using `cv2.bitwise_and()` to isolate specific regions of an image.
+
+### 14. `histogram.py`
+- **Functionality**: Plots histograms for grayscale and color images.
+- **Key Concepts**:
+  - Calculating and plotting histograms for both grayscale and color images.
+  - Masking specific regions of an image and plotting the histogram for only that region.
+  - Using `matplotlib` for histogram visualization.
+
+### 15. `thresh.py`
+- **Functionality**: Applies different types of thresholding techniques to an image.
+- **Key Concepts**:
+  - Simple thresholding using `cv2.threshold()`.
+  - Inverse thresholding and adaptive thresholding for better edge detection and segmentation.
+  - Working with grayscale images and their binary transformations.
+
+### 16. `gradient.py`
+- **Functionality**: Computes gradients using various operators.
+- **Key Concepts**:
+  - Applying the Laplacian and Sobel operators to detect edges and compute gradients in images.
+  - Combining gradient results from different axes (x, y) using bitwise operations.
+
+
 ## Usage
 Each script can be run independently. For example, to run the `img_read.py` file, use the following command in your terminal:
 
